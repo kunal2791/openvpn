@@ -24,7 +24,7 @@ Example Playbook
 ```
 ---
 - name: It will automate OpenVPN client cert genetation and revoke
-  hosts: server
+  hosts: all
   become: true
   roles:
     - role: openvpn
