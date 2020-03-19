@@ -30,15 +30,15 @@ Example Playbook
     - role: openvpn
 ...
 
-$  ansible-playbook site.yml -i inventory
+$  ansible-playbook openvpn.yml -i inventory
 
 ```
 ```
 - For generating client keys
-$  ansible-playbook site.yml -i inventory --tags "generate_client_keys"
+$  ansible-playbook client.yml -i inventory --tags "generate_client_keys"
 
 
 - For revoking client keys
-$  ansible-playbook site.yml -i inventory --tags "revoke_client_keys"
+$  ansible-playbook client.yml -i inventory --tags "revoke_client_keys"
 
 ```
