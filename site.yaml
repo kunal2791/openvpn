@@ -1,5 +1,5 @@
 ---
-- name: It will automate OpenVPN setup
+- name: It will automate OpenVPN client cert genetation and revoke
   hosts: all
   become: true
   roles:
